@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.app {
+	@apply antialiased grid min-h-screen place-content-center p-4 text-gray-500 text-center;
+}
+
+.container {
+	@apply mx-auto w-full max-w-3xl;
+}
+
+.backdrop {
+	@apply fixed inset-0 z-0;
+}
+
+.content {
+	@apply relative z-10 w-full space-y-4;
+}
+
+.header {
+	@apply space-y-4;
+}
+.header h1 {
+	@apply mb-8 mt-4 text-center font-bold;
+}
+
+.header h3 {
+	@apply my-4 text-center font-medium;
+}
+
+.links {
+	@apply grid space-y-2;
+}
+
+.button {
+	@apply bg-white text-gray-600 hover:bg-gray-50 active:bg-brand-2 flex w-full items-center justify-center rounded-xl py-5 px-8 ring-1 ring-black/5 transition hover:text-gray-800 duration-300 active:scale-95 active:duration-75 font-bold focus:ring-4 focus:ring-brand-2 outline-none text-center leading-none self-center focus:z-10;
+}
+
+.button-primary {
+	@apply bg-brand-2 hover:text-white hover:bg-brand-3 active:bg-brand-3 my-2 py-4  text-xl text-white active:duration-75 leading-none;
+}
+
+/* 
+.links > .space:nth-child(odd) {
+	@apply mr-1;
+}
+
+.links > .space:nth-child(even) {
+	@apply ml-1;
+}
+*/
+
+.group > .button:first-child {
+	@apply rounded-r-none mr-0;
+}
+
+.group > .button:last-child {
+	@apply rounded-l-none ml-0;
+}
+
+.footer {
+	@apply flex justify-center gap-4;
+}
+
+.icon-link {
+	@apply transition duration-300 text-brand-2 hover:bg-brand-1 active:bg-brand-1 grid h-12 w-12 place-content-center rounded-full p-0 text-xl ring-0 bg-transparent hover:text-brand-3;
+}
