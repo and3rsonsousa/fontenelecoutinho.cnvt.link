@@ -41,16 +41,6 @@
 	@apply bg-brand-2 hover:text-white hover:bg-brand-3 active:bg-brand-3 my-2 py-4  text-xl text-white active:duration-75 leading-none;
 }
 
-/* 
-.links > .space:nth-child(odd) {
-	@apply mr-1;
-}
-
-.links > .space:nth-child(even) {
-	@apply ml-1;
-}
-*/
-
 .group > .button:first-child {
 	@apply rounded-r-none mr-0;
 }
