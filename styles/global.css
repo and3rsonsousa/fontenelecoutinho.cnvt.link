@@ -34,7 +34,7 @@
 }
 
 .button {
-	@apply bg-white text-gray-600 hover:bg-gray-50 active:bg-brand-2 flex w-full items-center justify-center rounded-xl py-5 px-8 ring-1 ring-black/5 transition hover:text-gray-800 duration-300 active:scale-95 active:duration-75 font-bold focus:ring-4 focus:ring-brand-2 outline-none text-center leading-none self-center focus:z-10;
+	@apply bg-white text-gray-600 hover:bg-gray-50 active:bg-brand-2 flex w-full items-center justify-center rounded-xl py-5 px-8 ring-1 ring-black/5 transition hover:text-gray-800 duration-300 active:scale-95 active:duration-75 font-bold focus:ring-4 focus:ring-brand-2/75 outline-none text-center leading-none self-center focus:z-10;
 }
 
 .button-primary {
