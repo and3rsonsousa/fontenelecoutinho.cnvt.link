@@ -11,6 +11,7 @@ export default function ButtonLinks({ links }: { links: ItemType[] }) {
 							className={`grid grid-cols-2 ${
 								!link.spaceless ? "gap-2" : "group"
 							}`}
+							key={index}
 						>
 							{link.group.map((link, index) => (
 								<ButtonLink {...link} key={index} />
