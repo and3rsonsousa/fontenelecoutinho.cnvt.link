@@ -31,8 +31,8 @@ export function ButtonLink({
 	url,
 	className = "",
 	download,
-	primary,
-}: ItemType) {
+	type,
+}: ItemType): JSX.Element {
 	// Se for download
 
 	if (url !== undefined) {
@@ -41,7 +41,11 @@ export function ButtonLink({
 				href={url}
 				download
 				className={`button ${
-					primary ? "button-primary" : ""
+					type
+						? type === "primary"
+							? "button-primary"
+							: "button-alternative"
+						: ""
 				} ${className}`}
 				target="_blank"
 				rel="noreferrer"
@@ -53,7 +57,11 @@ export function ButtonLink({
 			<a
 				href={url}
 				className={`button ${
-					primary ? "button-primary" : ""
+					type
+						? type === "primary"
+							? "button-primary"
+							: "button-alternative"
+						: ""
 				} ${className}`}
 				target="_blank"
 				rel="noreferrer"
@@ -65,7 +73,11 @@ export function ButtonLink({
 			<Link
 				to={url}
 				className={`button ${
-					primary ? "button-primary" : ""
+					type
+						? type === "primary"
+							? "button-primary"
+							: "button-alternative"
+						: ""
 				} ${className}`}
 			>
 				<Name name={name} />
