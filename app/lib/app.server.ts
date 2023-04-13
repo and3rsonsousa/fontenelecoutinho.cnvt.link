@@ -5,7 +5,7 @@ export function getAppData() {
 		// name  			=>	nome que ficará no <title></title>
 		// className 	=>	classes aplicadas ao compomponent <App></App>
 		app: {
-			name: "Fontenele Coutiho Odontologia",
+			name: "Fontenele Coutinho Odontologia",
 			className: "bg-gray-100",
 		},
 
@@ -39,11 +39,22 @@ export function getAppData() {
 				name: `<span class="text-xl font-semibold block -mb-8">Agende sua consulta em</span>`,
 			},
 			{
-				name: `Agende sua consulta`,
-				url: "whatsapp-sobral",
-				primary: true,
-				redirect:
-					"https://wa.me/5588994694910?text=Oi,%20Alice.%20Gostaria%20de%20marcar%20uma%20consulta.",
+				group: [
+					{
+						name: `Sobral<div class="text-xs text-brand-1 uppercase tracking-wide leading-4 mt-1">Fale com a <br/>Alice</div>`,
+						url: "whatsapp-sobral",
+						primary: true,
+						redirect:
+							"https://wa.me/5588994694910?text=Oi,%20Alice.%20Gostaria%20de%20marcar%20uma%20consulta.",
+					},
+					{
+						name: `Carnaubal<div class="text-xs text-brand-1 uppercase tracking-wide leading-4 mt-1">Fale com a <br/>Sammya</div>`,
+						url: "whatsapp-carnaubal",
+						primary: true,
+						redirect:
+							"https://wa.me/5588999698851?text=Oi,%20Sammya.%20Gostaria%20de%20marcar%20uma%20consulta.",
+					},
+				],
 			},
 
 			{
@@ -53,12 +64,12 @@ export function getAppData() {
 
 			{
 				name: "Vanessa & Émerson",
-				url: "https://instagram.com/fontenelecoutinho",
+				url: "https://www.instagram.com/stories/highlights/17984713462401692/",
 			},
 
 			{
 				name: "Nossos Serviços",
-				url: "https://instagram.com/fontenelecoutinho",
+				url: "https://www.instagram.com/stories/highlights/18168826360088394/",
 			},
 
 			{
