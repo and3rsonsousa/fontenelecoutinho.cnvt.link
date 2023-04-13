@@ -39,22 +39,11 @@ export function getAppData() {
 				name: `<span class="text-xl font-semibold block -mb-8">Agende sua consulta em</span>`,
 			},
 			{
-				group: [
-					{
-						name: `Sobral<div class="text-xs text-brand-1 uppercase tracking-wide leading-4 mt-1">Fale com a <br/>Alice</div>`,
-						url: "whatsapp-sobral",
-						primary: true,
-						redirect:
-							"https://wa.me/5588994694910?text=Oi,%20Alice.%20Gostaria%20de%20marcar%20uma%20consulta.",
-					},
-					{
-						name: `Carnaubal<div class="text-xs text-brand-1 uppercase tracking-wide leading-4 mt-1">Fale com a <br/>Sammya</div>`,
-						url: "whatsapp-carnaubal",
-						primary: true,
-						redirect:
-							"https://wa.me/5588999698851?text=Oi,%20Sammya.%20Gostaria%20de%20marcar%20uma%20consulta.",
-					},
-				],
+				name: `Agende sua consulta`,
+				url: "whatsapp-sobral",
+				primary: true,
+				redirect:
+					"https://wa.me/5588994694910?text=Oi,%20Alice.%20Gostaria%20de%20marcar%20uma%20consulta.",
 			},
 
 			{
