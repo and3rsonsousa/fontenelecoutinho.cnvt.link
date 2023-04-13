@@ -36,12 +36,9 @@ export function getAppData() {
 		// },
 		links: [
 			{
-				name: `<span class="text-xl font-semibold block -mb-8">Agende sua consulta em</span>`,
-			},
-			{
 				name: `Agende sua consulta`,
 				url: "whatsapp-sobral",
-				primary: true,
+				type: "primary",
 				redirect:
 					"https://wa.me/5588994694910?text=Oi,%20Alice.%20Gostaria%20de%20marcar%20uma%20consulta.",
 			},
