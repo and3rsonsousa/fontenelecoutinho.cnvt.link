@@ -59,6 +59,18 @@ export function getAppData() {
 			},
 
 			{
+				name: `<div><div class="text-xs uppercase font-semibold tracking-wider text-center">IMERSÃO</div>
+				<div class="text-xl font-bold">Clareamento Dental</div>
+				</div>`,
+			},
+			{
+				name: "Reserve a sua vaga",
+				url: "whatsapp-sobral",
+				redirect:
+					"https://wa.me/5588994694910?text=Oi,%20Alice.%20Gostaria%20de%20saber%20mais%20sobre%20a%20Imersão%20de%20Clareamento.",
+			},
+
+			{
 				name: `<div><img src="/flor.png" class="w-20 mt-8 mx-auto" /></div>`,
 			},
 
