@@ -69,11 +69,11 @@ export function getAppData() {
 			{
 				group: [
 					{
-						name: "Vanessa",
+						name: "Vanessa 👩🏻",
 						url: "https://www.instagram.com/p/CUc040qj6HP/",
 					},
 					{
-						name: "Émerson",
+						name: "Émerson 🧔🏻‍♂️",
 						url: "https://www.instagram.com/p/CUpmzDNDscj/",
 					},
 				],
