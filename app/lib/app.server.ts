@@ -36,30 +36,51 @@ export function getAppData() {
 		// },
 		links: [
 			{
-				name: `Agende sua consulta`,
-				url: "whatsapp-sobral",
-				type: "primary",
-				redirect:
-					"https://wa.me/5588994694910?text=Oi,%20Alice.%20Gostaria%20de%20marcar%20uma%20consulta.",
+				name: `<span class="text-xl font-semibold block -mb-8">Agende sua consulta em</span>`,
+			},
+			{
+				group: [
+					{
+						name: `Sobral`,
+						url: "whatsapp-sobral",
+						type: "primary",
+						redirect:
+							"https://wa.me/5588994694910?text=Oi,%20Alice.%20Gostaria%20de%20marcar%20uma%20consulta.",
+					},
+					{
+						name: `Carnaubal`,
+						url: "whatsapp-carnaubal",
+						type: "primary",
+						redirect:
+							"https://wa.me/5588999698851?text=Oi,.%20Gostaria%20de%20marcar%20uma%20consulta.",
+					},
+				],
 			},
 
 			{
 				name: "Onde estamos",
 				url: "https://goo.gl/maps/bbgvxcq5K6KrEP2u7",
 			},
-
-			{
-				name: "Vanessa & Émerson",
-				url: "https://instagram.com/fontenelecoutinho",
-			},
-
 			{
 				name: "Nossos Serviços",
-				url: "https://instagram.com/fontenelecoutinho",
+				url: "https://www.instagram.com/p/CVNu5bDLvJM/",
 			},
 
 			{
-				name: `<div><div class="text-xs uppercase font-semibold tracking-wider text-center">IMERSÃO</div>
+				group: [
+					{
+						name: "Vanessa",
+						url: "https://www.instagram.com/p/CUc040qj6HP/",
+					},
+					{
+						name: "Émerson",
+						url: "https://www.instagram.com/p/CUpmzDNDscj/",
+					},
+				],
+			},
+
+			{
+				name: `<div class"-mb-8"><div class="text-xs uppercase font-semibold tracking-wider text-center">IMERSÃO</div>
 				<div class="text-xl font-bold">Clareamento Dental</div>
 				</div>`,
 			},
@@ -67,7 +88,7 @@ export function getAppData() {
 				name: "Reserve a sua vaga",
 				url: "whatsapp-sobral",
 				redirect:
-					"https://wa.me/5588994694910?text=Oi,%20Alice.%20Gostaria%20de%20saber%20mais%20sobre%20a%20Imersão%20de%20Clareamento.",
+					"https://wa.me/5588994694910?text=Oi,%20Alice.%20Gostaria%20de%20saber%20mais%20sobre%20a%20Imers%C3%A3o%20de%20Clareamento.",
 			},
 
 			{
