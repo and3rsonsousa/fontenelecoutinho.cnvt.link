@@ -41,14 +41,14 @@ export function getAppData() {
 			{
 				group: [
 					{
-						name: `Sobral`,
+						name: `<div>Sobral</div><div class="uppercase text-[10px] tracking-wide mt-1">fale com a alice</div>`,
 						url: "whatsapp-sobral",
 						type: "primary",
 						redirect:
 							"https://wa.me/5588994694910?text=Oi,%20Alice.%20Gostaria%20de%20marcar%20uma%20consulta.",
 					},
 					{
-						name: `Carnaubal`,
+						name: `<div>Carnaubal</div><div class="uppercase text-[10px] tracking-wide mt-1">fale com a natália</div>`,
 						url: "whatsapp-carnaubal",
 						type: "primary",
 						redirect:
