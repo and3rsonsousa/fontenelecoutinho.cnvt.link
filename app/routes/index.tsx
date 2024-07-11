@@ -1,14 +1,7 @@
 import { LoaderFunction, MetaFunction, useLoaderData } from "remix";
 import { getAppData } from "~/lib/app.server";
 
-import {
-	App,
-	Backdrop,
-	Container,
-	Footer,
-	Header,
-	ButtonLinks,
-} from "~/components";
+import { App, ButtonLinks, Container, Footer, Header } from "~/components";
 import { AppDataType, ItemType } from "~/types";
 
 export const meta: MetaFunction = ({ data }: { data: AppDataType }) => {

@@ -1,6 +1,6 @@
 import { LoaderFunction, redirect } from "remix";
 import { getAppData } from "~/lib/app.server";
-import { AppDataType, ItemType } from "~/types";
+import { type AppDataType, type ItemType } from "~/types";
 
 export const loader: LoaderFunction = async ({ params }) => {
 	let data: AppDataType = await getAppData();

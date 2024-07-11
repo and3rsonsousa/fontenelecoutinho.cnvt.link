@@ -1,4 +1,4 @@
-import { AppDataType } from "~/types";
+import { type AppDataType } from "~/types";
 
 export function getAppData() {
 	let AppDataType: AppDataType = {
@@ -6,7 +6,7 @@ export function getAppData() {
 		// className 	=>	classes aplicadas ao compomponent <App></App>
 		app: {
 			name: "Fontenele Coutinho Odontologia",
-			className: "bg-gray-100",
+			className: "bg-stone-100",
 		},
 
 		// Ordem de aparição
@@ -36,64 +36,77 @@ export function getAppData() {
 		// },
 		links: [
 			{
-				name: `<span class="text-xl font-semibold block -mb-8">Agende sua consulta em</span>`,
+				name: `<span class="text-xl font-semibold block -mb-4">Agende sua consulta em</span>`,
 			},
 			{
-				group: [
-					{
-						name: `<div>Sobral</div><div class="uppercase text-[10px] tracking-wide mt-1">fale com a alice</div>`,
-						url: "whatsapp-sobral",
-						type: "primary",
-						redirect:
-							"https://wa.me/5588994694910?text=Oi,%20Alice.%20Gostaria%20de%20marcar%20uma%20consulta.",
-					},
-					{
-						name: `<div>Carnaubal</div><div class="uppercase text-[10px] tracking-wide mt-1">fale com a natália</div>`,
-						url: "whatsapp-carnaubal",
-						type: "primary",
-						redirect:
-							"https://wa.me/5588999698851?text=Oi,.%20Gostaria%20de%20marcar%20uma%20consulta.",
-					},
-				],
-			},
-
-			{
-				name: "Onde estamos",
-				url: "https://goo.gl/maps/bbgvxcq5K6KrEP2u7",
-			},
-			{
-				name: "Nossos Serviços",
-				url: "https://www.instagram.com/p/CVNu5bDLvJM/",
-			},
-
-			{
-				group: [
-					{
-						name: "Vanessa 👩🏻",
-						url: "https://www.instagram.com/p/CUc040qj6HP/",
-					},
-					{
-						name: "Émerson 🧔🏻‍♂️",
-						url: "https://www.instagram.com/p/CUpmzDNDscj/",
-					},
-				],
-			},
-
-			{
-				name: `<div class"-mb-8"><div class="text-xs uppercase font-semibold tracking-wider text-center">IMERSÃO</div>
-				<div class="text-xl font-bold">Clareamento Dental</div>
-				</div>`,
-			},
-			{
-				name: "Reserve a sua vaga",
+				name: `<div>Sobral</div><div class="uppercase text-[10px] tracking-wide mt-1">fale com a alice</div>`,
 				url: "whatsapp-sobral",
+				type: "primary",
 				redirect:
-					"https://wa.me/5588994694910?text=Oi,%20Alice.%20Gostaria%20de%20saber%20mais%20sobre%20a%20Imers%C3%A3o%20de%20Clareamento.",
+					"https://wa.me/5588994694910?text=Oi,%20Alice.%20Gostaria%20de%20marcar%20uma%20consulta.",
 			},
 
 			{
-				name: `<div><img src="/flor.png" class="w-20 mt-8 mx-auto" /></div>`,
+				name: `<div>Sobral</div><div class="uppercase text-[10px] tracking-wide mt-1">fale com a Mikaele</div>`,
+				url: "whatsapp-sobral-2",
+				type: "primary",
+				redirect:
+					"https://wa.me/5588998334499?text=Oi,%20Mikaele.%20Gostaria%20de%20marcar%20uma%20consulta.",
 			},
+
+			{
+				name: `<div>Carnaubal</div><div class="uppercase text-[10px] tracking-wide mt-1">fale com a natália</div>`,
+				url: "whatsapp-carnaubal",
+				type: "primary",
+				redirect:
+					"https://wa.me/5588999698851?text=Oi,Nat%C3%A1lia.%20Gostaria%20de%20marcar%20uma%20consulta.",
+			},
+
+			{
+				name: `<div>IMERSÃO</div><div class="uppercase text-[10px] tracking-wide mt-1">Clareamento, hipersensibilidade e fotografia</div>`,
+				url: "whatsapp-imersao",
+				type: "primary",
+				redirect:
+					"https://wa.me/5588994694910?text=Oi%20Alice,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20IMERS%C3%83O.",
+			},
+
+			// {
+			// 	name: "Onde estamos",
+			// 	url: "https://goo.gl/maps/bbgvxcq5K6KrEP2u7",
+			// },
+			// {
+			// 	name: "Nossos Serviços",
+			// 	url: "https://www.instagram.com/p/CVNu5bDLvJM/",
+			// },
+
+			// {
+			// 	group: [
+			// 		{
+			// 			name: "Vanessa 👩🏻",
+			// 			url: "https://www.instagram.com/p/CUc040qj6HP/",
+			// 		},
+			// 		{
+			// 			name: "Émerson 🧔🏻‍♂️",
+			// 			url: "https://www.instagram.com/p/CUpmzDNDscj/",
+			// 		},
+			// 	],
+			// },
+
+			// {
+			// 	name: `<div class"-mb-8"><div class="text-xs uppercase font-semibold tracking-wider text-center">IMERSÃO</div>
+			// 	<div class="text-xl font-bold">Clareamento Dental</div>
+			// 	</div>`,
+			// },
+			// {
+			// 	name: "Reserve a sua vaga",
+			// 	url: "whatsapp-sobral",
+			// 	redirect:
+			// 		"https://wa.me/5588994694910?text=Oi,%20Alice.%20Gostaria%20de%20saber%20mais%20sobre%20a%20Imers%C3%A3o%20de%20Clareamento.",
+			// },
+
+			// {
+			// 	name: `<div><img src="/flor.png" class="w-20 mt-8 mx-auto" /></div>`,
+			// },
 
 			//Botões Footer
 			{

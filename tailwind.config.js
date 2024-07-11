@@ -8,8 +8,8 @@ module.exports = {
 				gray: colors.slate,
 				brand: {
 					1: "#CCFFE1",
-					2: "#2AAD9D",
-					3: "#1C6A72",
+					2: "#964",
+					3: "#a75",
 					4: "#138",
 				},
 			},
